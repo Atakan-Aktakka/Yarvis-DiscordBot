@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/atakanaktakka/Documents/GitHub/Yarvis-Discord-bot/Yarvis.csproj": {}
+  },
+  "projects": {
+    "/Users/atakanaktakka/Documents/GitHub/Yarvis-Discord-bot/Yarvis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/atakanaktakka/Documents/GitHub/Yarvis-Discord-bot/Yarvis.csproj",
+        "projectName": "Yarvis",
+        "projectPath": "/Users/atakanaktakka/Documents/GitHub/Yarvis-Discord-bot/Yarvis.csproj",
+        "packagesPath": "/Users/atakanaktakka/.nuget/packages/",
+        "outputPath": "/Users/atakanaktakka/Documents/GitHub/Yarvis-Discord-bot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/atakanaktakka/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "DSharpPlus.Interactivity": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "DSharpPlus.SlashCommands": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "Google.Apis": {
+              "target": "Package",
+              "version": "[1.61.0, )"
+            },
+            "Google.Apis.CustomSearchAPI.v1": {
+              "target": "Package",
+              "version": "[1.61.0.3106, )"
+            },
+            "Google.Apis.YouTube.v3": {
+              "target": "Package",
+              "version": "[1.61.0.3113, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
